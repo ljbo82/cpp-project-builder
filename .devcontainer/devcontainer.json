@@ -1,0 +1,32 @@
+{
+    "name": "cpp-project-builder",
+
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "Gruntfuggly.todo-tree",
+                "ms-python.python",
+                "ms-python.debugpy"
+            ]
+        },
+
+        "settings": {
+            "terminal.integrated.defaultProfile.linux": "bash"
+        }
+    },
+
+    "privileged": true,
+
+    "mounts": [
+		{ "source": "${localEnv:HOME}/.ssh", "target": "/home/developer/.ssh", "type": "bind" },
+		{ "source": "${localEnv:HOME}/.gitconfig", "target": "/home/developer/.gitconfig", "type": "bind" }
+	],
+
+	"workspaceMount": "source=${localWorkspaceFolder},target=/home/developer/cpp-project-builder,type=bind",
+	"workspaceFolder": "/home/developer/cpp-project-builder"
+}

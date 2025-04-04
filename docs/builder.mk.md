@@ -24,4 +24,4 @@ See [variable reference](../variables).
 
 ## Functions
 
-_This file itself does not expose any function explicitly. But since it automatically includes [functions.mk](../functions.mk), all functions contained there are implicitly exposed after inclusion_.
+_This file itself does not expose any function explicitly. But since it automatically includes [functions.mk](functions.mk.md), all functions contained there are implicitly exposed after inclusion_.

@@ -13,7 +13,7 @@ include $(CPB_DIR)/functions.mk
 ```
 
 !!! note
-    This makefile is automatically included by [builder.mk](../builder.mk), [git.mk](../git.mk), [doxygen.mk](../doxygen.mk), and [native.mk](../native.mk).
+    This makefile is automatically included by [builder.mk](builder.mk.md), [git.mk](git.mk.md), [doxygen.mk](doxygen.mk.md), and [native.mk](native.mk.md).
 
 --------------------------------------------------------------------------------
 

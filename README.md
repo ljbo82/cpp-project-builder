@@ -18,7 +18,6 @@ For details, check the [documentation](http://ljbo82.github.io/cpp-project-build
 
 cpp-project-builder is distributed under MIT License. Please see the [LICENSE](LICENSE) file for details on copying and distribution.
 
-
 ## Basic usage
 
 cpp-project-builder provides a build system intended to be used by C/C++/Assembly projects in order to build source files using a GCC-based compiler.
